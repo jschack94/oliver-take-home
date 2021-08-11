@@ -31,7 +31,7 @@ class Home extends React.Component {
               <li>Create a page where a user can view all of the reviews for a given product</li>
             </ul>
           <p>
-            Please spend 90 minutes completing this task to whatever extent you can finish, but don't go over time. 
+            Please spend 2 hours completing this task to whatever extent you can finish, but don't go over time. 
             The expectation is not that you will get through all of the requirements, so please add notes on anything 
             else you would have done with more time. Feel free to use any third-party libraries that you find helpful.
           </p>
@@ -48,8 +48,8 @@ class Home extends React.Component {
           <p>This project was bootstrapped with <a href="https://github.com/facebook/create-react-app">Create React App</a></p>
 
           <h4>
-            Best of luck! Feel free to email <a href="mailto:caroline@oliver.space">caroline@oliver.space</a>
-            or text (203) 434 - 2075 if you have any questions while you're completing the exercise. I'm
+            Best of luck! Feel free to email <a href="mailto:frontend-eng@oliver.space">frontend-eng@oliver.space</a>
+            if you have any questions while you're completing the exercise. We're
             happy to help :)
           </h4>
         </div>

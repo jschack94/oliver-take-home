@@ -23,3 +23,5 @@ You can then make requests to http://localhost:3004/products, http://localhost:3
 More info on json-server [here](https://www.npmjs.com/package/json-server)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+Best of luck! Feel free to email <a href="mailto:frontend-eng@oliver.space">frontend-eng@oliver.space</a> if you have any questions while you're completing the exercise. We're happy to help :)
