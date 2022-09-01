@@ -4,15 +4,15 @@ An application that displays a list of products and reviews using the provided A
 
 ## Instructions
 
-``
+```
  git clone 
  npm install
  npm run serve
  open up another tab in the terminal and npm start
  navigate to localhost:3000 to access the site
+ 
+ ```
 
-
-``
 
 ## Challenges
 The most challenging part of the assessment was only having two hours to work on the project. I wanted to be able to complete every task; however, ultimately, I needed to make a few tough decisions and trade offs. The hardest task for me was configuring the various APIs provided. I wanted to create a separate folder that would house the API environments in order to make the application more scalable
