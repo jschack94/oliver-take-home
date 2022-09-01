@@ -1,27 +1,37 @@
-## Oliver Space Take-Home Instructions
+## Oliver Space Take-Home Assessment
 
-Your mission, if you choose to accept it, is to build out a mock of a product reviews flow. 
-This includes a page for users to submit their reviews as well as a page to read reviews.
+An application that displays a list of products and reviews using the provided API endpoints. 
 
-REQUIREMENTS:
-- Create a page where a user can view all of the reviews for a given product
-    - This page should also display the average rating for this product
-- Create a page where a user can review a given product with the following information:
-    - Their name (the author)
-    - A star rating
-    - Headline text (a title for their review)
-    - The body of the review (a longer paragraph)
+## Instructions
 
-Please spend 2 hours completing this task to whatever extent you can finish, but don't
-go over time. The expectation is NOT that you will get through all of the requirements, so please add notes on anything else you would have done with more time. Feel free to use any third-party libraries that you find helpful. Please spend some of your time on styling - since we are a consumer-facing company, we care about UI quality. It's ok to sacrifice some functionality for looks (though we leave it up to you to determine what you want to trade off).
+``
+ git clone 
+ npm install
+ npm run serve
+ open up another tab in the terminal and npm start
+ navigate to localhost:3000 to access the site
 
-## Running the app
-Start the mock JSON server on port 3004 by running `npm run server`
-Start the React app on port 3000 using `npm start`
-You can then make requests to http://localhost:3004/products, http://localhost:3004/reviews or http://localhost:3004/products/:id/reviews using axios, or any of your preferred methods
 
-More info on json-server [here](https://www.npmjs.com/package/json-server)
+``
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Challenges
+The most challenging part of the assessment was only having two hours to work on the project. I wanted to be able to complete every task; however, ultimately, I needed to make a few tough decisions and trade offs. The hardest task for me was configuring the various APIs provided. I wanted to create a separate folder that would house the API environments in order to make the application more scalable
 
-Best of luck! Feel free to email <a href="mailto:frontend-eng@oliver.space">frontend-eng@oliver.space</a> if you have any questions while you're completing the exercise. We're happy to help :)
+## Most Proud
+
+I am most proud of the clean structure of my code. I put a strong emphasis on defining the unique components that I would need beforehand. Also, I am proud of how quickly I was able to create the form and the post request for adding reviews
+
+## Least Proud
+
+I am least proud of the work that I did on rendering the reviews. Since I knew I was going to run out of time, I was unable to make a separate path for each product's reviews. Instead, I had to house every single review together. 
+
+## Tradeoffs
+
+I spent a good amount of time on the frontend api integrations as well as the functinality for posting reviews. Ultimately, I had to make the decision to not focus as much on the review section for each product. Also, although I was able to do a decent amount of UI work, I definitely would have spent more time making the application for attractive to the user.
+
+
+## Feedback
+
+I thought this was a great exercise to test frontend API integration skills. It was challenging, but extremely rewarding, and I am definitely proud of the finished project. I am looking forward to having the team review!
+
+
