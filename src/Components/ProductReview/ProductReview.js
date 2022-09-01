@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useHistory, useParams } from 'react-router-dom';
 import Swal from 'sweetalert2';
 import { axios } from '../../utils/axios';
+import Rating from '../Rating/Rating';
 import './ProductReview.scss';
 
 function ProductReview() {
@@ -92,7 +93,9 @@ function ProductReview() {
 
 
         <div className="rating-star">
-       
+          <Rating
+            rating={reviewForm.rating}
+            setRating={(rating) => setReviewFormHandler('star_rating', rating)} />
         </div>
 
         <button onClick={() => handleSubmit()} > Submit</button>
