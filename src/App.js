@@ -5,7 +5,7 @@ import {
 
 import ProductReview from "./Components/ProductReview/ProductReview";
 import Products from "./Components/Products/Products";
-import Reviews from "./Components/Reviews/index";
+import Reviews from "./Components/Reviews/Reviews";
 
 export default function OliverTakeHome() {
   return (

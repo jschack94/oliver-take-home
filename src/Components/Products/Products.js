@@ -28,8 +28,8 @@ function Products() {
         {products.map(product => (
           <div className="product">
             <h2 className="name">{product.name}</h2>
-            <button onClick={() => history.push(`/reviews`)} >All Reviews</button>
-            <button onClick={() => history.push(`/product-review/${product.id}`)} >Click to Rate</button>
+            <button className="all_reviews" onClick={() => history.push(`/reviews`)} >View Reviews</button>
+            <button className="new_review" onClick={() => history.push(`/product-review/${product.id}`)} >Leave a Review</button>
           </div>
         ))}
       </div>
